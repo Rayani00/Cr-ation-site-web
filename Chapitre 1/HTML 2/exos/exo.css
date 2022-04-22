@@ -1,0 +1,126 @@
+section{
+	text-align: left;
+justify-content: space-between;
+
+}
+
+
+header{
+	background: url('img.jpg');
+	text-align: center;
+    height: 450px; 
+   /* position: absolute;
+    
+    background: transparent;*/
+}
+footer{
+	height: 50px;
+	
+	background-color: black;
+	text-align: center;
+	color: white;
+	padding-bottom: : 5px;
+	padding-top: 15px
+	/*position: fixed;*/
+	
+
+
+}
+
+.rose{
+	color: pink;
+
+}
+.ecr {
+	color : grey;
+}
+/*img{
+	
+	position:  relative;
+	z-index: 1;
+}*/
+nav{
+
+background-color: rgba(50,50,50,0.5);
+position: fixed;
+top: 0px;
+width: 100%;
+
+
+
+}
+nav ul{
+list-style: none;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+
+
+}
+
+
+
+
+.art{
+	display: inline-block;
+	justify-content: space-around;
+
+
+
+}
+.l{
+	display: inline;
+}
+#div1{
+
+color: black;
+animation-name: ani;
+animation-duration: s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: ease;
+
+}
+@keyframes{
+  50%{color: pink};
+
+
+}
+#videoo{
+	color :black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+#div2 {
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+.center {
+	text-align: center;
+}
+#info{
+	color: white;
+	background-color: black;
+}
+
+#non{
+	list-style: none;
+}
+#coul {
+	color: black;
+}
+fieldset{
+	display: inline;
+}
+#gris{
+	text-align: center;
+	background-color: grey;
+}
