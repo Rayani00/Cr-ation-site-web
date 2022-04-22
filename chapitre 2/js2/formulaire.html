@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h1>Formulaire d'inscription</h1>
+        <p>
+            <label for="pseudo">Pseudo</label>
+            <input type="text" name="pseudo" id="pseudo" required>
+            <span id="aidePseudo"></span>
+        </p>
+        <p>
+                <label for="mdp">Mot de passe</label>
+                <input type="password" name="mdp" id="mdp" required>
+                <span id="aideMdp"></span>
+        </p>
+        <p>
+                <label for="courriel">Courriel</label>
+                <input type="email" name="courriel" id="courriel" required placeholder="aaaaa@domaine.dz">
+                <span id="aideCourriel"></span>
+        </p>
+        <p>
+                <input type="checkbox" name="confirmation" id="confirmation" >
+                <label for=confirmation>confirmation d'email</label>
+            </p>
+            <p>
+                    <input type="radio" name="abonnement" id="abonewspromo" value="abonewspromo">
+                    <label for=abonewspromo>M'abonner a la newletter et aux promotions</label>
+            </p>
+            <p>
+                    <input type="radio" name="abonnement" id="abonews" value="abonews">
+                    <label for=abonews>M'abonner uniquement a la newletter </label>
+            </p>   
+            <p>
+                    <input type="radio" name="abonnement" id="abonrien" value="abonrien">
+                    <label for=abonrien>Ne pas m'abonner </label>
+            </p>   
+            <p>
+                <label for="nationalite">Nationalité :</label>
+                <select name="nationalite" id="nationalite">
+                    <option value="FR" selected>Française</option>
+                    <option value="BE">Belge</option>
+                    <option value="SUI">Suisse</option>
+                    <option value="XX">Autre</option>
+                </select>
+            </p>
+            <input type="submit" value="Envoyer">
+            <input type="reset" value="Annuler">        
+    </form>
+    <script src="formulaire.js"></script>
+</body>
+</html>

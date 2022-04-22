@@ -1,0 +1,12 @@
+body{
+    padding-top: 10px;
+
+}
+
+[class*="col-"]{
+    background-color: aqua;
+    border: 2px solid red;
+    border-radius: 6px;
+    line-height: 40px;
+    text-align: center;
+}
