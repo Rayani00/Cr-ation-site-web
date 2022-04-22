@@ -1,0 +1,40 @@
+.container{
+	height: 600px;
+	border: 2px solid black;
+	display: flex; /** pour inverser en qq sorte : colonne -->line ...**/
+	flex-direction: row; 
+	justify-content: space-between; /** espae entre les elements**/
+	flex-wrap: wrap; /** pour le saut de ligne quand on reduit la fenetre**/
+	align-content: flex-start; /** pour reduire les espaces entre les elements**/
+}
+.element{
+	height: 100px;
+	width: 100px;
+}
+.element:nth-child(1){
+	background-color: black;
+}
+.element:nth-child(2){
+	background-color: orange;
+}
+.element:nth-child(3){
+	background-color: purple;
+}
+.element:nth-child(4){
+	background-color: yellow;
+}
+.element:nth-child(5){
+	background-color: grey;
+}
+.element:nth-child(5){
+	background-color: red;
+}
+.element:nth-child(6){
+	background-color: blue;
+}
+.element:nth-child(7){
+	background-color: pink;
+}
+.element:nth-child(8){
+	background-color: yellow;
+}

@@ -1,0 +1,19 @@
+div{
+	height: 100px; 
+	width: 100px;
+	background-color: blue;
+	animation-name: Lotfi;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: ease;
+
+}
+@keyframes Lotfi{
+25% {background-color: green}	
+50% {background-color: red}	
+25% {background-color: yellow}
+100% {background-color: grey}	
+
+
+}

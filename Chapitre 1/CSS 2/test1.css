@@ -1,0 +1,14 @@
+#para1{
+	background-color: red;
+	height: 50px; /*changement de la hauteur*/
+	width: 50px; /*changement de la largeur*/
+	overflow-x: auto;
+}
+#para2{
+	background-color: blue;
+	margin: 50px;
+	padding: 20px;
+}
+span {
+	background-color: green;
+}
