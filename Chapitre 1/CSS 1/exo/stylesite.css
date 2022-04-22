@@ -1,0 +1,46 @@
+@font-face {
+ font-family: "lotfi";
+ src: url("../fonts/Wintersoul.ttf") format("TrueType");
+ 
+}
+body {
+	 background-image: url("fond.jpg"); 
+	 font-family: "lotfi";
+	 color : black;
+	 font-size: 12px; 
+}
+.center{
+	text-align: center;
+}
+#imageC{
+	text-align: center;
+}
+.titre{
+	 font-family: "lotfi";
+	 color : pink;
+	 font-size: 23px; 
+	}
+.blanc {
+	font-family: "lotfi";
+	 color : white;
+	 font-size: 17px;
+    
+}
+.bord{
+	border: 2px solid white ;
+	box-shadow: -10px -10px 30px white;
+}
+.bordd{
+	border: 2px solid white ;
+	box-shadow: 10px 10px 30px grey;
+}
+.borddd{
+	border: 2px solid grey ;
+	box-shadow: -10px -10px 50px grey;
+}
+#droit{
+	text-align: right;
+}
+a {
+	color : white;
+}
